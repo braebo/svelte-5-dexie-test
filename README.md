@@ -1,5 +1,11 @@
 # Svelte 5 + Dexie LiveQuery
 
+https://svelte-5-dexie-test.vercel.app
+
+edit: This seems to be caused by a bug in `fromStore`.
+
+## Related
+
 - Svelte 5: Runes not tracking async dependencies - GH [#11424](https://github.com/sveltejs/svelte/issues/11424) (open)
 - Svelte 5: important recent regression with DexieJs LiveQuery that stopped working - GH [#12341](https://github.com/sveltejs/svelte/issues/12341) (closed)
 - Is there a plan to make liveQuery more compatible with Svelte5 runes - GH [#2075](https://github.com/dexie/Dexie.js/issues/2075) (open)

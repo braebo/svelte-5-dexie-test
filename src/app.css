@@ -1,0 +1,79 @@
+.row {
+	display: flex;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+
+	/* outline: 1px solid hsla(0, 0%, 50%, 0.25); */
+	border-radius: 0.5rem;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+	width: 100%;
+	max-width: min(900px, calc(100vw - 2rem));
+	margin: 0 auto;
+
+	font-size: 1rem;
+	font-family:
+		system-ui,
+		-apple-system,
+		sans-serif;
+
+	color-scheme: dark light;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	color: tomato;
+}
+
+div {
+	justify-content: center;
+	max-width: 20rem;
+	&:not(:has(code)) {
+		padding: 0.75rem 0.25rem 0.25rem;
+	}
+}
+
+.row code {
+	width: 3rem;
+	margin-right: 1rem;
+
+	text-align: left;
+}
+
+pre {
+	min-width: 9rem;
+
+	border-radius: 0.5rem;
+
+	font-size: 12px;
+}
+
+button {
+	width: 100%;
+	margin: auto;
+	padding: 0.25rem 0.5rem;
+
+	background: #292940;
+	color: white;
+	border-radius: 0.5rem;
+	border: 1px groove #333355;
+	font-size: 1rem;
+	cursor: pointer;
+}
+button:hover {
+	background: #2f2f51;
+	border-color: #6b6bbd;
+}
